@@ -1,0 +1,40 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Libre Franklin', sans-serif;
+    background: url(laptop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+.text{color:white;
+text-align: center;
+text-transform: uppercase;
+transition: all 0.3s;
+}
+
+.text:hover{transform: scale(1.1)}
+}
+
+.btn{font-weight: 700;
+	border-radius: 300px;}
+.bluebtn{
+	padding: 1rem 2rem;
+}
+
+.btn-primary{text-transform: uppercase;
+	background-color: orange;
+	border-color: orange;
+
+}
+.btn-primary:hover { border-width: 4px;
+	background-color: #ee4b08;
+border-color: #ee4b08;}
+
+hr {border-color:#ee4b08;
+border-width: 3px;
+max-width: 65px; }
+
+.buffer{height: 3rem;}
+
